@@ -24,3 +24,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
+  database: pingpong_production
+  username: pingpong
+  password: <%= ENV['PINGPONG_DATABASE_PASSWORD'] %>
