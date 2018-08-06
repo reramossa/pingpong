@@ -21,6 +21,8 @@ group :assets do
   gem 'uglifier',     '>= 1.3.0'
 end
 
+gem 'execjs'
+
 gem 'tzinfo-data'
 #gem 'uglifier',     '>= 1.3.0'
 #gem 'sass-rails',   '~> 5.0'
