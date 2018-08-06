@@ -11,10 +11,20 @@ group :production do
   gem 'rails_12factor'
   gem 'puma'
 end
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails',   '~> 5.0'
+  gem 'coffee-rails', '~> 4.2'
+  #gem 'coffee-script'
+  gem 'uglifier',     '>= 1.3.0'
+end
+
 gem 'tzinfo-data'
-gem 'uglifier',     '>= 1.3.0'
-gem 'sass-rails',   '~> 5.0'
-gem 'coffee-rails', '~> 4.2'
+#gem 'uglifier',     '>= 1.3.0'
+#gem 'sass-rails',   '~> 5.0'
+#gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 2.5.3'
 
