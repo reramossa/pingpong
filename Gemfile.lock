@@ -196,6 +196,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 3.5.2)
   devise-bootstrap-views (~> 0.0.6)
+  execjs
   jquery-rails
   pg (= 0.15.1)
   puma
